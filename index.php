@@ -30,10 +30,13 @@
             justify-content: center;
             gap:20px;
         }
+        body{
+            background-image: url("https://www.thoughtco.com/thmb/afeWP0VLyxBFrzS_s2D-C7V2PjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg");
+        }
     </style>
 </head>
 
-<body class="bg-gradient-dark">
+<body class="bg">
     <div class="container">
         <div class="nav">
             <h1 class="text-center text-white">Paswa <sub>2022</sub></h1>
