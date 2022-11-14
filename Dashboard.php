@@ -41,7 +41,7 @@ if(empty($total_panitia)){ $t_panitia = "0"; }else{ $t_panitia = $total_panitia[
                                 <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $t_peserta; ?></div>
                             </div>
                             <div class="col-auto">
-                                <i class="fa-solid fa-beat-fade fa-user fa-2x text-gray-300"></i>
+                                <i class="fa-solid fa-beat-fade fa-user fa-2x text-black"></i>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ if(empty($total_panitia)){ $t_panitia = "0"; }else{ $t_panitia = $total_panitia[
                                 <div class="h5 mb-0 font-weight-bold text-gray-800"><?= $t_panitia; ?></div>
                             </div>
                             <div class="col-auto">
-                                <i class="fa- fa-beat-fade fa-solid fa-people-group fa-2x text-gray-300"></i>
+                                <i class="fa- fa-beat-fade fa-solid fa-people-group fa-2x text-black"></i>
                             </div>
                         </div>
                     </div>
