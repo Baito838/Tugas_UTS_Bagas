@@ -59,6 +59,7 @@
             <h1 class="text-center" style="color: black;">ADMIN PASWA <sub>2022</sub></h1>
             <div class="tombol">
                 <div><a class="btn btn-success" href="login.php">Login</a></div>
+                <div><a class="btn btn-warning" href="register.php">Register</a></div>
             </div>
         </div>
     </div>
