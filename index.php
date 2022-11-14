@@ -39,10 +39,9 @@
 <body class="bg">
     <div class="container">
         <div class="nav">
-            <h1 class="text-center text-white">Paswa <sub>2022</sub></h1>
+            <h1 class="text-center text-white">Admin Paswa <sub>2022</sub></h1>
             <div class="tombol">
             <div><a class="btn btn-success" href="login.php">Login</a></div>
-            <div><a class="btn btn-warning" href="register.php">Register</a></div>
             </div>
         </div>
     </div>

@@ -108,7 +108,7 @@
 
                         <div class="form-group">
                             <label>Alamat</label>
-                            <input type="text" placeholder="Alamat" name="alamat">
+                            <input type="textarea" class="form-control col-sm-6" style="height: 100px;" placeholder="Alamat" name="alamat">
                         </div>
 
                         <div class="form-group">

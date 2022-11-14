@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-gradient bg-primary">
+<body style="background-image:url('https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=900&t=st=1667835419~exp=1667836019~hmac=00d46b679448e2420c7b19d47fa475b3cb2180e21f19bf3bbe7c046f584086c1');">
 
     <div class="container">
 
@@ -127,7 +127,7 @@
 
                                 <div class="form-group">
                                     <label>Alamat</label>
-                                    <input type="text" placeholder="Alamat" name="alamat">
+                                    <input type="textarea" class="form-control col-sm-6" style="height: 100px;" placeholder="Alamat" name="alamat">
                                 </div>
 
                                 <div class="form-group">

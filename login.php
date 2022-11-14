@@ -35,7 +35,7 @@
                         <!-- Nested Row within Card Body -->
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-block">
-                            <img src="gambar/STIKOM-CKI.jpg" alt="Image" style="width:500px;height:600px;">
+                            <img src="image/STIKOM-CKI.jpg" alt="Image" style="width:500px;height:600px;">
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
