@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PASWA 2022</title>
+    <title>DB PASWA 2022</title>
 
     <!-- Custom fonts for this template-->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -16,21 +16,34 @@
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
     <style>
-        .container{
-            margin-top: 30px;
-            height: 200px;
+        .container {
+            height: 100px;
             position: sticky;
+            padding: 30px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
         }
+
         .nav {
             display: flex;
             justify-content: space-between;
         }
+
         .tombol {
             display: flex;
             justify-content: center;
-            gap:20px;
+            gap: 20px;
         }
-        body{
+
+        body {
+            padding-top: 30px;
+            background-repeat: no-repeat;
+            background-size: cover;
             background-image: url("https://www.thoughtco.com/thmb/afeWP0VLyxBFrzS_s2D-C7V2PjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg");
         }
     </style>
@@ -39,9 +52,9 @@
 <body class="bg">
     <div class="container">
         <div class="nav">
-            <h1 class="text-center text-white">Admin Paswa <sub>2022</sub></h1>
+            <h1 class="text-center" style="color: black;">Admin Paswa <sub>2022</sub></h1>
             <div class="tombol">
-            <div><a class="btn btn-success" href="login.php">Login</a></div>
+                <div><a class="btn btn-success" href="login.php">Login</a></div>
             </div>
         </div>
     </div>
