@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+</head>
+
 <?php include('header.php'); ?>
 <?php include('sidemenu.php'); ?>
 
@@ -19,7 +23,7 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <table id="table" class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
                         <tr>
                             <td>No.</td>
@@ -57,9 +61,9 @@
                             echo "<td>" . $row['no_hp'] . "</td>";
                             echo "<td>" . $row['alamat'] . "</td>";
                             echo "<td>";
-                            if($row['jenis_kelamin'] == 1 ){
+                            if ($row['jenis_kelamin'] == 1) {
                                 echo "Laki-laki";
-                            } elseif ($row['jenis_kelamin'] == 2){
+                            } elseif ($row['jenis_kelamin'] == 2) {
                                 echo "Perempuan";
                             } else {
                                 echo "Tak teridentifikasi";
@@ -85,5 +89,9 @@
 
 </div>
 <!-- End of Main Content -->
-
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js">
+    $(document).ready(function() {
+        $('#table').DataTable();
+    });
+</script>
 <?php include('footer.php'); ?>

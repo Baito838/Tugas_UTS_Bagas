@@ -16,7 +16,11 @@
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
     <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
         .container {
+            z-index: 999;
             height: 100px;
             position: sticky;
             padding: 30px;
@@ -52,7 +56,7 @@
 <body class="bg">
     <div class="container">
         <div class="nav">
-            <h1 class="text-center" style="color: black;">Admin Paswa <sub>2022</sub></h1>
+            <h1 class="text-center" style="color: black;">ADMIN PASWA <sub>2022</sub></h1>
             <div class="tombol">
                 <div><a class="btn btn-success" href="login.php">Login</a></div>
             </div>
