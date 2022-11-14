@@ -9,9 +9,8 @@ $jam_mulai = $_POST['jam_mulai'];
 $jam_selesai = $_POST['jam_selesai'];
 $nama_kegiatan = $_POST['nama_kegiatan'];
 $narasumber = $_POST['narasumber'];
-$foto = $_POST['foto'];
 	
-if(mysqli_query($mysqli, "INSERT INTO tab_kegiatan (tanggal, jam_mulai, jam_selesai, nama_kegiatan, narasumber, pic) VALUES('$tanggal', '$jam_mulai', '$jam_selesai', '$nama_kegiatan', '$narasumber', '$foto')")){  
+if(mysqli_query($mysqli, "INSERT INTO tab_kegiatan (tanggal, jam_mulai, jam_selesai, nama_kegiatan, narasumber) VALUES('$tanggal', '$jam_mulai', '$jam_selesai', '$nama_kegiatan', '$narasumber')")){  
 echo "<script language=javascript>
 		alert('Simpan Berhasil');
 		window.location='kegiatan.php'; 

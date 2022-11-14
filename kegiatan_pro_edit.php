@@ -10,9 +10,8 @@ $jam_mulai = $_POST['jam_mulai'];
 $jam_selesai = $_POST['jam_selesai'];
 $nama_kegiatan = $_POST['nama_kegiatan'];
 $narasumber = $_POST['narasumber'];
-$foto = $_POST['foto'];
 	
-if(mysqli_query($mysqli, "UPDATE tab_kegiatan SET tanggal='$tanggal', jam_mulai='$jam_mulai', jam_selesai='$jam_selesai', nama_kegiatan='$nama_kegiatan', narasumber='$narasumber', pic='$foto' WHERE id='$id'")){  
+if(mysqli_query($mysqli, "UPDATE tab_kegiatan SET tanggal='$tanggal', jam_mulai='$jam_mulai', jam_selesai='$jam_selesai', nama_kegiatan='$nama_kegiatan', narasumber='$narasumber' WHERE id='$id'")){  
 echo "<script language=javascript>
 		alert('Edit Berhasil');
 		window.location='kegiatan.php'; 

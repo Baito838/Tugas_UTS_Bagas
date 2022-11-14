@@ -42,10 +42,6 @@
                         <label for="">Narasumber</label>
                         <input type="text" name="narasumber" class="form-control" required>
                     </div>
-                    <div class="col-lg-4">
-                        <label>Foto</label>
-                        <input type="file" name="foto" class="form-control-file" required>
-                    </div>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-primary">Submit</button>

@@ -28,7 +28,6 @@
                             <td>Jam Selesai</td>
                             <td>Nama Kegiatan</td>
                             <td>Narasumber</td>
-                            <td>Pic</td>
                             <td>Action</td>
                         </tr>
                     </thead>
@@ -46,7 +45,6 @@
                             echo "<td>" . $row['jam_selesai'] . "</td>";
                             echo "<td>" . $row['nama_kegiatan'] . "</td>";
                             echo "<td>" . $row['narasumber'] . "</td>";
-                            echo "<td>" . $row['pic'] . "</td>";
                             echo "<td><a href=\"kegiatan_edit.php?id=" . $row['id'] . "\">Edit</a> | 
                         <a href=\"kegiatan_pro_delete.php?id=" . $row['id'] . "\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
                             echo "</tr>";

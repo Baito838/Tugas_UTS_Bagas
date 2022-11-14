@@ -65,7 +65,7 @@
                                 echo "Tak teridentifikasi";
                             };
                             echo "</td>";
-                            echo "<td>" . $row['foto'] . "</td>";
+                            echo "<td> <img src='gambar/" . $row['foto'] . "' width='80px'> </td>";
                             echo "<td>" . $row['agama'] . "</td>";
                             echo "<td>" . $row['tempat_lahir'] . "</td>";
                             echo "<td>" . $row['tanggal_lahir'] . "</td>";

@@ -28,7 +28,6 @@
                 $jam_selesai = $res['jam_selesai'];
                 $nama_kegiatan = $res['nama_kegiatan'];
                 $narasumber = $res['narasumber'];
-                $foto = $res['pic'];
 
                 ?>
                 <input type="hidden" name="id" value="<?=$id?>">
@@ -57,10 +56,6 @@
                     <div class="col-lg-4">
                         <label for="">Narasumber</label>
                         <input type="text" name="narasumber" class="form-control" value="<?=$narasumber?>" required>
-                    </div>
-                    <div class="col-lg-4">
-                        <label>Foto</label>
-                        <input type="file" name="foto" class="form-control-file" value="<?=$foto?>" required>
                     </div>
                 </div>
                 <br>
