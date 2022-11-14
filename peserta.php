@@ -1,7 +1,3 @@
-<head>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
-</head>
-
 <?php include('header.php'); ?>
 <?php include('sidemenu.php'); ?>
 
@@ -23,7 +19,7 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table id="table" class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <table id="tabel-data" class="table table-striped table-bordered" width="100%" cellspacing="0">
                     <thead>
                         <tr>
                             <td>No.</td>
@@ -89,9 +85,6 @@
 
 </div>
 <!-- End of Main Content -->
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js">
-    $(document).ready(function() {
-        $('#table').DataTable();
-    });
-</script>
+
+
 <?php include('footer.php'); ?>
