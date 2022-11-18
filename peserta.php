@@ -1,6 +1,9 @@
 <?php include('header.php'); ?>
 <?php include('sidemenu.php'); ?>
-
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap4.min.css">
+</head>
 
 <!-- Begin Page Content -->
 <div class="container-fluid">
@@ -19,24 +22,24 @@
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table id="tabel-data" class="table table-striped table-bordered" width="100%" cellspacing="0">
+                <table id="datatable" class="table table-striped table-bordered" width="100%" cellspacing="0">
                     <thead>
                         <tr>
-                            <td>No.</td>
-                            <td>NIM</td>
-                            <td>NAMA</td>
-                            <td>PRODI</td>
-                            <td>KELAS</td>
-                            <td>SEMESTER</td>
-                            <td>EMAIL</td>
-                            <td>NO_HP</td>
-                            <td>ALAMAT</td>
-                            <td>JENIS KELAMIN</td>
-                            <td>FOTO</td>
-                            <td>AGAMA</td>
-                            <td>TEMPAT LAHIR</td>
-                            <td>TANGGAL LAHIR</td>
-                            <td>AKSI</td>
+                            <th>No.</th>
+                            <th>NIM</th>
+                            <th>NAMA</th>
+                            <th>PRODI</th>
+                            <th>KELAS</th>
+                            <th>SEMESTER</th>
+                            <th>EMAIL</th>
+                            <th>NO_HP</th>
+                            <th>ALAMAT</th>
+                            <th>JENIS KELAMIN</th>
+                            <th>FOTO</th>
+                            <th>AGAMA</th>
+                            <th>TEMPAT LAHIR</th>
+                            <th>TANGGAL LAHIR</th>
+                            <th>AKSI</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -85,6 +88,19 @@
 
 </div>
 <!-- End of Main Content -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js">
+    $(document).ready(function() {
+        $('#datatable').dataTable({
+            "pagingType": "full_numbers"
+        });
+    });
+</script>
 
+<script language="javascript" type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js">
+    $(document).ready(function () {
+    $('#datatable').DataTable();
+});
+</script>
 
 <?php include('footer.php'); ?>

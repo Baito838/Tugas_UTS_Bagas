@@ -48,10 +48,11 @@
     <!-- Page level custom scripts -->
     <script src="assets/js/demo/chart-area-demo.js"></script>
     <script src="assets/js/demo/chart-pie-demo.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('#tabel-data').DataTable();
-    });
+    
+    <script language="javascript" type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js">
+    $(document).ready(function () {
+    $('#datatable').DataTable();
+});
 </script>
 </body>
 
